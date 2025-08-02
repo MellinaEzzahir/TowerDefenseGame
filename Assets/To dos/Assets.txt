@@ -1,0 +1,15 @@
+Towers
+    - sandcastles
+        - 5 levels
+        - variations?
+        - skill tree?
+        - slow mo
+        - salt attack
+Enemies
+    - crab
+    - fishes?
+    - seals?
+        - freindly?
+General
+    - shell
+    - sand barrier?
