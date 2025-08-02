@@ -1,16 +1,9 @@
-using UnityEngine;
-
 public class Slowmo : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    [Header("References")]
+    [SerializeField] private LayerMask enemyMask;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [Header("Attributes")]
+    [SerializeField] private float targetingRange = 1.5f;
+    [SerializeField] private float aps = 1f; //attack per second
 }
