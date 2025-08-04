@@ -11,5 +11,5 @@ Enemies
     - seals?
         - freindly?
 General
-    - shell
+    - pearls
     - sand barrier?
