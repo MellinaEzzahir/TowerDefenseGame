@@ -1,79 +1,79 @@
 fileFormatVersion: 2
-guid: ba4529b2b6c8b471ba27717135902baf
+guid: 16cb38d3566aa4c9fae6868a8087454d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6863012861029149159
-    second: sandcastle1_hurt_0
+      213: -7681809408856359366
+    second: sandcastle1_hurt (1)_0
   - first:
-      213: 7542036038424875976
-    second: sandcastle1_hurt_1
+      213: -5315743662794152970
+    second: sandcastle1_hurt (1)_1
   - first:
-      213: -8718875740411768237
-    second: sandcastle1_hurt_2
+      213: -963342294605475368
+    second: sandcastle1_hurt (1)_2
   - first:
-      213: 7185498380749127891
-    second: sandcastle1_hurt_3
+      213: -2893755795080172250
+    second: sandcastle1_hurt (1)_3
   - first:
-      213: 3223962756020634440
-    second: sandcastle1_hurt_4
+      213: -8106132821382465670
+    second: sandcastle1_hurt (1)_4
   - first:
-      213: -920709839014406381
-    second: sandcastle1_hurt_5
+      213: -8302601129029343367
+    second: sandcastle1_hurt (1)_5
   - first:
-      213: 2760866888152555579
-    second: sandcastle1_hurt_6
+      213: 3723408490167768873
+    second: sandcastle1_hurt (1)_6
   - first:
-      213: 3619373265406841717
-    second: sandcastle1_hurt_7
+      213: 1336877710266247483
+    second: sandcastle1_hurt (1)_7
   - first:
-      213: -4211229857727929846
-    second: sandcastle1_hurt_8
+      213: 2929421155606566875
+    second: sandcastle1_hurt (1)_8
   - first:
-      213: 8704227051974194865
-    second: sandcastle1_hurt_9
+      213: 6140829650591995828
+    second: sandcastle1_hurt (1)_9
   - first:
-      213: 570041190160349249
-    second: sandcastle1_hurt_10
+      213: 871087864658743464
+    second: sandcastle1_hurt (1)_10
   - first:
-      213: 8294050699316783157
-    second: sandcastle1_hurt_11
+      213: -4312317567543055466
+    second: sandcastle1_hurt (1)_11
   - first:
-      213: -200891795986836560
-    second: sandcastle1_hurt_12
+      213: 3403254984950148608
+    second: sandcastle1_hurt (1)_12
   - first:
-      213: 8589419318945581695
-    second: sandcastle1_hurt_13
+      213: 5687460368818333217
+    second: sandcastle1_hurt (1)_13
   - first:
-      213: -125950235473269236
-    second: sandcastle1_hurt_14
+      213: 5981723567303083079
+    second: sandcastle1_hurt (1)_14
   - first:
-      213: -6658790688518561348
-    second: sandcastle1_hurt_15
+      213: -6100690619429758694
+    second: sandcastle1_hurt (1)_15
   - first:
-      213: 6119342964554407961
-    second: sandcastle1_hurt_16
+      213: 4556150942771744482
+    second: sandcastle1_hurt (1)_16
   - first:
-      213: 8777518719692215512
-    second: sandcastle1_hurt_17
+      213: -85742307196906464
+    second: sandcastle1_hurt (1)_17
   - first:
-      213: 8821275870557530132
-    second: sandcastle1_hurt_18
+      213: 6183649219404594818
+    second: sandcastle1_hurt (1)_18
   - first:
-      213: 4251182463665660912
-    second: sandcastle1_hurt_19
+      213: 7254160647395758161
+    second: sandcastle1_hurt (1)_19
   - first:
-      213: -1339543560335184299
-    second: sandcastle1_hurt_20
+      213: -4877380500341154408
+    second: sandcastle1_hurt (1)_20
   - first:
-      213: -4188350351374273877
-    second: sandcastle1_hurt_21
+      213: -2745876871735552548
+    second: sandcastle1_hurt (1)_21
   - first:
-      213: 3033147956746499
-    second: sandcastle1_hurt_22
+      213: -9019454948171634600
+    second: sandcastle1_hurt (1)_22
   - first:
-      213: 7542519723080260777
-    second: sandcastle1_hurt_23
+      213: -1385841588929535213
+    second: sandcastle1_hurt (1)_23
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -142,7 +142,7 @@ TextureImporter:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
-    resizeAlgorithm: 0
+    resizeAlgorithm: 1
     textureFormat: -1
     textureCompression: 0
     compressionQuality: 50
@@ -195,7 +195,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sandcastle1_hurt_0
+      name: sandcastle1_hurt (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -210,14 +210,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e96496d5d15e3f50800000000000000
-      internalID: 6863012861029149159
+      spriteID: a3efcd8ea0bb46590800000000000000
+      internalID: -7681809408856359366
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_1
+      name: sandcastle1_hurt (1)_1
       rect:
         serializedVersion: 2
         x: 32
@@ -232,14 +232,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8c3528941d1baa860800000000000000
-      internalID: 7542036038424875976
+      spriteID: 6f3ee1e7d4faa36b0800000000000000
+      internalID: -5315743662794152970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_2
+      name: sandcastle1_hurt (1)_2
       rect:
         serializedVersion: 2
         x: 64
@@ -254,14 +254,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3525cfb65b4500780800000000000000
-      internalID: -8718875740411768237
+      spriteID: 8d15eec794581a2f0800000000000000
+      internalID: -963342294605475368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_3
+      name: sandcastle1_hurt (1)_3
       rect:
         serializedVersion: 2
         x: 96
@@ -276,14 +276,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d042b6f4b408b360800000000000000
-      internalID: 7185498380749127891
+      spriteID: 62da487af6057d7d0800000000000000
+      internalID: -2893755795080172250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_4
+      name: sandcastle1_hurt (1)_4
       rect:
         serializedVersion: 2
         x: 128
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 84303b99b01ddbc20800000000000000
-      internalID: 3223962756020634440
+      spriteID: a77fc57a52b318f80800000000000000
+      internalID: -8106132821382465670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_5
+      name: sandcastle1_hurt (1)_5
       rect:
         serializedVersion: 2
         x: 0
@@ -320,14 +320,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 317d650974bf833f0800000000000000
-      internalID: -920709839014406381
+      spriteID: 977e270234c37cc80800000000000000
+      internalID: -8302601129029343367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_6
+      name: sandcastle1_hurt (1)_6
       rect:
         serializedVersion: 2
         x: 32
@@ -342,14 +342,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b30a87c9ec1905620800000000000000
-      internalID: 2760866888152555579
+      spriteID: 9279f1a5b443ca330800000000000000
+      internalID: 3723408490167768873
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_7
+      name: sandcastle1_hurt (1)_7
       rect:
         serializedVersion: 2
         x: 64
@@ -364,14 +364,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 573de120fc89a3230800000000000000
-      internalID: 3619373265406841717
+      spriteID: b39ae84c13b8d8210800000000000000
+      internalID: 1336877710266247483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_8
+      name: sandcastle1_hurt (1)_8
       rect:
         serializedVersion: 2
         x: 96
@@ -386,14 +386,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a02ab96a1c4be85c0800000000000000
-      internalID: -4211229857727929846
+      spriteID: bd79171350567a820800000000000000
+      internalID: 2929421155606566875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_9
+      name: sandcastle1_hurt (1)_9
       rect:
         serializedVersion: 2
         x: 128
@@ -408,14 +408,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b674450360abc870800000000000000
-      internalID: 8704227051974194865
+      spriteID: 4b7d8bd180c983550800000000000000
+      internalID: 6140829650591995828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_10
+      name: sandcastle1_hurt (1)_10
       rect:
         serializedVersion: 2
         x: 0
@@ -430,14 +430,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 14839d6317139e700800000000000000
-      internalID: 570041190160349249
+      spriteID: 8a053253cc9b61c00800000000000000
+      internalID: 871087864658743464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_11
+      name: sandcastle1_hurt (1)_11
       rect:
         serializedVersion: 2
         x: 32
@@ -452,14 +452,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5386bd1da236a1370800000000000000
-      internalID: 8294050699316783157
+      spriteID: 69b6beb15029724c0800000000000000
+      internalID: -4312317567543055466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_12
+      name: sandcastle1_hurt (1)_12
       rect:
         serializedVersion: 2
         x: 64
@@ -474,14 +474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b31ae5d9f9463df0800000000000000
-      internalID: -200891795986836560
+      spriteID: 00ee70aa06aca3f20800000000000000
+      internalID: 3403254984950148608
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_13
+      name: sandcastle1_hurt (1)_13
       rect:
         serializedVersion: 2
         x: 96
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f7a01a4ac5fb33770800000000000000
-      internalID: 8589419318945581695
+      spriteID: 126678d621bedee40800000000000000
+      internalID: 5687460368818333217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_14
+      name: sandcastle1_hurt (1)_14
       rect:
         serializedVersion: 2
         x: 128
@@ -518,14 +518,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0e2d3b9de8804ef0800000000000000
-      internalID: -125950235473269236
+      spriteID: 744cea554e9530350800000000000000
+      internalID: 5981723567303083079
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_15
+      name: sandcastle1_hurt (1)_15
       rect:
         serializedVersion: 2
         x: 0
@@ -540,14 +540,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb12c2906293793a0800000000000000
-      internalID: -6658790688518561348
+      spriteID: a19d458543ef55ba0800000000000000
+      internalID: -6100690619429758694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_16
+      name: sandcastle1_hurt (1)_16
       rect:
         serializedVersion: 2
         x: 32
@@ -562,14 +562,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9102d0d21064ce450800000000000000
-      internalID: 6119342964554407961
+      spriteID: 2ee88f69423ba3f30800000000000000
+      internalID: 4556150942771744482
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_17
+      name: sandcastle1_hurt (1)_17
       rect:
         serializedVersion: 2
         x: 64
@@ -584,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8d4989035c200d970800000000000000
-      internalID: 8777518719692215512
+      spriteID: 0245e4d63d16fcef0800000000000000
+      internalID: -85742307196906464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_18
+      name: sandcastle1_hurt (1)_18
       rect:
         serializedVersion: 2
         x: 96
@@ -606,14 +606,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4186e4acaa77b6a70800000000000000
-      internalID: 8821275870557530132
+      spriteID: 28e7b32e33cb0d550800000000000000
+      internalID: 6183649219404594818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_19
+      name: sandcastle1_hurt (1)_19
       rect:
         serializedVersion: 2
         x: 128
@@ -628,14 +628,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0f3692e4deb3ffa30800000000000000
-      internalID: 4251182463665660912
+      spriteID: 15054a3bca4fba460800000000000000
+      internalID: 7254160647395758161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_20
+      name: sandcastle1_hurt (1)_20
       rect:
         serializedVersion: 2
         x: 0
@@ -650,14 +650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 55e2f05aa3cf86de0800000000000000
-      internalID: -1339543560335184299
+      spriteID: 89d9fb2c640105cb0800000000000000
+      internalID: -4877380500341154408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_21
+      name: sandcastle1_hurt (1)_21
       rect:
         serializedVersion: 2
         x: 32
@@ -672,14 +672,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ba23477db8dffd5c0800000000000000
-      internalID: -4188350351374273877
+      spriteID: cd5dd3f888fa4e9d0800000000000000
+      internalID: -2745876871735552548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_22
+      name: sandcastle1_hurt (1)_22
       rect:
         serializedVersion: 2
         x: 64
@@ -694,14 +694,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 309538ac1a6ca0000800000000000000
-      internalID: 3033147956746499
+      spriteID: 8582792038574d280800000000000000
+      internalID: -9019454948171634600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sandcastle1_hurt_23
+      name: sandcastle1_hurt (1)_23
       rect:
         serializedVersion: 2
         x: 96
@@ -716,8 +716,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ac9395e9b96ca860800000000000000
-      internalID: 7542519723080260777
+      spriteID: 31364e8da6084cce0800000000000000
+      internalID: -1385841588929535213
       vertices: []
       indices: 
       edges: []
@@ -726,7 +726,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: b88e41d80c25e4c4d9932f4a91800a00
+    spriteID: 4b4c5e8163b3549759d46346090936fe
     internalID: 0
     vertices: []
     indices: 
@@ -736,30 +736,30 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sandcastle1_hurt_0: 6863012861029149159
-      sandcastle1_hurt_1: 7542036038424875976
-      sandcastle1_hurt_10: 570041190160349249
-      sandcastle1_hurt_11: 8294050699316783157
-      sandcastle1_hurt_12: -200891795986836560
-      sandcastle1_hurt_13: 8589419318945581695
-      sandcastle1_hurt_14: -125950235473269236
-      sandcastle1_hurt_15: -6658790688518561348
-      sandcastle1_hurt_16: 6119342964554407961
-      sandcastle1_hurt_17: 8777518719692215512
-      sandcastle1_hurt_18: 8821275870557530132
-      sandcastle1_hurt_19: 4251182463665660912
-      sandcastle1_hurt_2: -8718875740411768237
-      sandcastle1_hurt_20: -1339543560335184299
-      sandcastle1_hurt_21: -4188350351374273877
-      sandcastle1_hurt_22: 3033147956746499
-      sandcastle1_hurt_23: 7542519723080260777
-      sandcastle1_hurt_3: 7185498380749127891
-      sandcastle1_hurt_4: 3223962756020634440
-      sandcastle1_hurt_5: -920709839014406381
-      sandcastle1_hurt_6: 2760866888152555579
-      sandcastle1_hurt_7: 3619373265406841717
-      sandcastle1_hurt_8: -4211229857727929846
-      sandcastle1_hurt_9: 8704227051974194865
+      sandcastle1_hurt (1)_0: -7681809408856359366
+      sandcastle1_hurt (1)_1: -5315743662794152970
+      sandcastle1_hurt (1)_10: 871087864658743464
+      sandcastle1_hurt (1)_11: -4312317567543055466
+      sandcastle1_hurt (1)_12: 3403254984950148608
+      sandcastle1_hurt (1)_13: 5687460368818333217
+      sandcastle1_hurt (1)_14: 5981723567303083079
+      sandcastle1_hurt (1)_15: -6100690619429758694
+      sandcastle1_hurt (1)_16: 4556150942771744482
+      sandcastle1_hurt (1)_17: -85742307196906464
+      sandcastle1_hurt (1)_18: 6183649219404594818
+      sandcastle1_hurt (1)_19: 7254160647395758161
+      sandcastle1_hurt (1)_2: -963342294605475368
+      sandcastle1_hurt (1)_20: -4877380500341154408
+      sandcastle1_hurt (1)_21: -2745876871735552548
+      sandcastle1_hurt (1)_22: -9019454948171634600
+      sandcastle1_hurt (1)_23: -1385841588929535213
+      sandcastle1_hurt (1)_3: -2893755795080172250
+      sandcastle1_hurt (1)_4: -8106132821382465670
+      sandcastle1_hurt (1)_5: -8302601129029343367
+      sandcastle1_hurt (1)_6: 3723408490167768873
+      sandcastle1_hurt (1)_7: 1336877710266247483
+      sandcastle1_hurt (1)_8: 2929421155606566875
+      sandcastle1_hurt (1)_9: 6140829650591995828
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
