@@ -12,12 +12,15 @@ public class EnemyMovement : MonoBehaviour
     private Transform target;
     private int pathIndex = 0;
 
+    private float baseSpeeed;
+
     private void Start()
     {
+        baseSpeeed = moveSpeed;
         target = LevelManager.main.path[pathIndex];
     }
 
-    private void Update() 
+    private void Update()
     {
         if (Vector2.Distance(target.position, transform.position) < 0.1f)
         {
@@ -27,18 +30,29 @@ public class EnemyMovement : MonoBehaviour
                 Spawner.onEnemyDestroy.Invoke();
                 Destroy(gameObject);
                 return;
-            }else
+            }
+            else
             {
                 target = LevelManager.main.path[pathIndex];
-            }   
-           
+            }
+
         }
     }
 
-    private void FixedUpdate() 
+    private void FixedUpdate()
     {
         Vector2 direction = (target.position - transform.position).normalized;
         rb.linearVelocity = direction * moveSpeed;
+    }
+
+    public void UpdateSpeed(float newSpeed)
+    {
+        moveSpeed = newSpeed;
+    }
+
+    public void ResetSpeed()
+    {
+        moveSpeed = baseSpeeed;
     }
 }
  

@@ -1,0 +1,819 @@
+fileFormatVersion: 2
+guid: 12f611033ccae4e32b8e59fb2d7305b4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -842393483017919763
+    second: sandcastle2_hurt_0
+  - first:
+      213: 2487804202337329665
+    second: sandcastle2_hurt_1
+  - first:
+      213: -3070476904452267988
+    second: sandcastle2_hurt_2
+  - first:
+      213: 5567637556858167874
+    second: sandcastle2_hurt_3
+  - first:
+      213: 3688259948730441257
+    second: sandcastle2_hurt_4
+  - first:
+      213: 4455264494305596465
+    second: sandcastle2_hurt_5
+  - first:
+      213: 5968880531611925729
+    second: sandcastle2_hurt_6
+  - first:
+      213: -3134024582137198354
+    second: sandcastle2_hurt_7
+  - first:
+      213: -7277016588821574966
+    second: sandcastle2_hurt_8
+  - first:
+      213: 1039217377033943609
+    second: sandcastle2_hurt_9
+  - first:
+      213: 1607019579829328303
+    second: sandcastle2_hurt_10
+  - first:
+      213: 4453387691781217997
+    second: sandcastle2_hurt_11
+  - first:
+      213: 4200321331366994772
+    second: sandcastle2_hurt_12
+  - first:
+      213: 6489149340140921979
+    second: sandcastle2_hurt_13
+  - first:
+      213: -7489497445028894189
+    second: sandcastle2_hurt_14
+  - first:
+      213: 8768162132705052574
+    second: sandcastle2_hurt_15
+  - first:
+      213: 5194220093028402883
+    second: sandcastle2_hurt_16
+  - first:
+      213: -8392658957827673841
+    second: sandcastle2_hurt_17
+  - first:
+      213: -3824601533273177006
+    second: sandcastle2_hurt_18
+  - first:
+      213: -5356616400600405882
+    second: sandcastle2_hurt_19
+  - first:
+      213: 3320648898233551624
+    second: sandcastle2_hurt_20
+  - first:
+      213: -615857739513052687
+    second: sandcastle2_hurt_21
+  - first:
+      213: -6180423962744660268
+    second: sandcastle2_hurt_22
+  - first:
+      213: -3167796681316068625
+    second: sandcastle2_hurt_23
+  - first:
+      213: -5211555770968292528
+    second: sandcastle2_hurt_24
+  - first:
+      213: -4536008878651753333
+    second: sandcastle2_hurt_25
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sandcastle2_hurt_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 160
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2ec9327973f44f0800000000000000
+      internalID: -842393483017919763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_1
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 160
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1026a07bdb4768220800000000000000
+      internalID: 2487804202337329665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_2
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 160
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20e41306897365d0800000000000000
+      internalID: -3070476904452267988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 160
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242a7aefbd8344d40800000000000000
+      internalID: 5567637556858167874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 160
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92ed063d1e45f2330800000000000000
+      internalID: 3688259948730441257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_5
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134de7bd37744dd30800000000000000
+      internalID: 4455264494305596465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec39711839b5d250800000000000000
+      internalID: 5968880531611925729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_7
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8ce505f35b184d0800000000000000
+      internalID: -3134024582137198354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 128
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aca4aaeb7f7d20b90800000000000000
+      internalID: -7277016588821574966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a758ac2ba0c6e00800000000000000
+      internalID: 1039217377033943609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 96
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa913d22bc74d4610800000000000000
+      internalID: 1607019579829328303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 96
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce57b7b28c9dcd30800000000000000
+      internalID: 4453387691781217997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 96
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45320a22ff98a4a30800000000000000
+      internalID: 4200321331366994772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_13
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 95
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b746f81a1f61e0a50800000000000000
+      internalID: 6489149340140921979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_14
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 95
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a6bda31c5ff0890800000000000000
+      internalID: -7489497445028894189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e978ae40105cea970800000000000000
+      internalID: 8768162132705052574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_16
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 63
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6872a87a3951840800000000000000
+      internalID: 5194220093028402883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_17
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 63
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f017ea1e429478b80800000000000000
+      internalID: -8392658957827673841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_18
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 63
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25486d94b294ceac0800000000000000
+      internalID: -3824601533273177006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 63
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6886e24a3c979a5b0800000000000000
+      internalID: -5356616400600405882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_20
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80bc0035490551e20800000000000000
+      internalID: 3320648898233551624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_21
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f1462c16a80477f0800000000000000
+      internalID: -615857739513052687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_22
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4deda43b629ba3aa0800000000000000
+      internalID: -6180423962744660268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe29e79b3b9b904d0800000000000000
+      internalID: -3167796681316068625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_24
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 31
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0534c4863a5dca7b0800000000000000
+      internalID: -5211555770968292528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sandcastle2_hurt_25
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cb1f925fbdc01c0800000000000000
+      internalID: -4536008878651753333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sandcastle2_hurt_0: -842393483017919763
+      sandcastle2_hurt_1: 2487804202337329665
+      sandcastle2_hurt_10: 1607019579829328303
+      sandcastle2_hurt_11: 4453387691781217997
+      sandcastle2_hurt_12: 4200321331366994772
+      sandcastle2_hurt_13: 6489149340140921979
+      sandcastle2_hurt_14: -7489497445028894189
+      sandcastle2_hurt_15: 8768162132705052574
+      sandcastle2_hurt_16: 5194220093028402883
+      sandcastle2_hurt_17: -8392658957827673841
+      sandcastle2_hurt_18: -3824601533273177006
+      sandcastle2_hurt_19: -5356616400600405882
+      sandcastle2_hurt_2: -3070476904452267988
+      sandcastle2_hurt_20: 3320648898233551624
+      sandcastle2_hurt_21: -615857739513052687
+      sandcastle2_hurt_22: -6180423962744660268
+      sandcastle2_hurt_23: -3167796681316068625
+      sandcastle2_hurt_24: -5211555770968292528
+      sandcastle2_hurt_25: -4536008878651753333
+      sandcastle2_hurt_3: 5567637556858167874
+      sandcastle2_hurt_4: 3688259948730441257
+      sandcastle2_hurt_5: 4455264494305596465
+      sandcastle2_hurt_6: 5968880531611925729
+      sandcastle2_hurt_7: -3134024582137198354
+      sandcastle2_hurt_8: -7277016588821574966
+      sandcastle2_hurt_9: 1039217377033943609
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
