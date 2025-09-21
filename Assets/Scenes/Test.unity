@@ -1010,7 +1010,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 2087949673653282690, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
+  m_Sprite: {fileID: -8000900309729878286, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1139,9 +1139,10 @@ MonoBehaviour:
   fill: {fileID: 1780778766}
   border: {fileID: 632013238}
   heart: {fileID: 741654977}
-  heartSprite: {fileID: 2087949673653282690, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
-  poisonSprite: {fileID: -5773615260243526632, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
-  healthSprite: {fileID: -46164564338323838, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
+  heartSprite: {fileID: -8000900309729878286, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
+  poisonSprite: {fileID: -46164564338323838, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
+  healthSprite: {fileID: -5773615260243526632, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
+  bothSprite: {fileID: 2087949673653282690, guid: 8c4663cc7dfdc4dd890f705079606d49, type: 3}
   healthBar: {fileID: 838797099}
   towerHealth: {fileID: 978698922}
   audioManager: {fileID: 651941590}

@@ -4,16 +4,17 @@ using System.Collections;
 public class TowerHealth : MonoBehaviour
 {
     public TowerUI towerUI;
+    public TowerBase towerBase;
     public float maxHealth;
     private float health;
-    //private bool poisoning = false;
-    //private bool healing = false;
+    private bool poisoning = false;
+    private bool healing = false;
 
     public global::System.Single Health { get => health; set { health = value; HealthChanged(); } }
 
     public void Start()
     {
-        maxHealth = 100;
+        maxHealth = towerBase.maxHealth;
         Health = maxHealth;
     }
     private void OnMouseDown()
@@ -23,17 +24,16 @@ public class TowerHealth : MonoBehaviour
 
     private void HealthChanged()
     {
-        if (Health == maxHealth)
+        if (Health == maxHealth && poisoning == false)
         {
             towerUI.HideBar();
         }
-        else if (Health <= 0 )
+        else if (Health <= 0)
         {
             TowerDeath();
         }
         else
         {
-            towerUI.ShowBar();
             towerUI.SetHealth();
         }
     }
@@ -51,8 +51,8 @@ public class TowerHealth : MonoBehaviour
 
     public IEnumerator PoisonEffect(float damagePerTime, float durationOfWait, int rounds)
     {
-        // poisoning = true;
-        towerUI.PoisonHealthEffect(true);
+        poisoning = true;
+        UpdateHealthVariable();
         towerUI.ShakeTowerHealth();
         for (int i = rounds; i > 0; i--)
         {
@@ -61,12 +61,15 @@ public class TowerHealth : MonoBehaviour
             towerUI.ShakeTowerHealth();
         }
         towerUI.ShakeTowerHealth();
-        towerUI.PoisonHealthEffect(false);
+        poisoning = false;
+        UpdateHealthVariable();
+        towerUI.SetHealth();
     }
 
     public IEnumerator HealthEffect(float healthAdded)
     {
-        towerUI.HealthPotion(true);
+        healing = true;
+        UpdateHealthVariable();
         towerUI.PlaySound("Recharge");
         float healthAddedSoFar = 0;
         while (Health < maxHealth && healthAddedSoFar < healthAdded)
@@ -76,7 +79,31 @@ public class TowerHealth : MonoBehaviour
             yield return new WaitForSeconds((float)0.03);
         }
         towerUI.ShakeTowerHealth();
-        Debug.Log(Health);
-        towerUI.HealthPotion(false);
+        healing = false;
+        UpdateHealthVariable();
+    }
+
+    public void UpdateHealthVariable()
+    {
+        if (poisoning == false && healing == false)
+        {
+            towerUI.ChangeSprite(1);
+            towerUI.ChangeGradient(1);
+        }
+        else if (poisoning == true && healing == false)
+        {
+            towerUI.ChangeSprite(2);
+            towerUI.ChangeGradient(3);
+        }
+        else if (poisoning == false && healing == true)
+        {
+            towerUI.ChangeSprite(3);
+            towerUI.ChangeGradient(2);
+        }
+        else if (poisoning == true && healing == true)
+        {
+            towerUI.ChangeSprite(4);
+            towerUI.ChangeGradient(4);
+        }
     }
 }

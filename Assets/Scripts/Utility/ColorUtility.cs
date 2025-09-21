@@ -33,7 +33,6 @@ public static class ColorUtility
             new GradientAlphaKey[0]
         );
         return g;
-
     }
 
     private static Gradient MakeBlendedNormalHealthGradient()

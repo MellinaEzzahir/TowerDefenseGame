@@ -17,6 +17,18 @@ TextureImporter:
   - first:
       213: -8000900309729878286
     second: HealthIcons_4
+  - first:
+      213: 5765736940772978500
+    second: HealthIcons_5
+  - first:
+      213: 8777293617847525765
+    second: HealthIcons_6
+  - first:
+      213: -8736766392250285252
+    second: HealthIcons_7
+  - first:
+      213: 5960470697386718141
+    second: HealthIcons_8
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +75,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 26
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -142,9 +154,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 26
-        width: 26
-        height: 26
+        y: 208
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -163,10 +175,10 @@ TextureImporter:
       name: HealthIcons_1
       rect:
         serializedVersion: 2
-        x: 26
-        y: 26
-        width: 26
-        height: 26
+        x: 104
+        y: 208
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,9 +198,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 26
-        height: 26
+        y: 104
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +219,10 @@ TextureImporter:
       name: HealthIcons_3
       rect:
         serializedVersion: 2
-        x: 26
-        y: 0
-        width: 26
-        height: 26
+        x: 104
+        y: 104
+        width: 104
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,11 +237,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: HealthIcons_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 104
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fedc331f8717f090800000000000000
+      internalID: -8000900309729878286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: cd65261a5c2d148c38d79d5e4fdbcf1f
+    spriteID: c71ba27b09ab34f3ab312b5127848769
     internalID: 0
     vertices: []
     indices: 
@@ -243,6 +277,7 @@ TextureImporter:
       HealthIcons_1: -5773615260243526632
       HealthIcons_2: 2087949673653282690
       HealthIcons_3: -46164564338323838
+      HealthIcons_4: -8000900309729878286
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

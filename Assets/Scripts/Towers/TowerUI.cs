@@ -10,6 +10,7 @@ public class TowerUI : MonoBehaviour
     public Sprite heartSprite;
     public Sprite poisonSprite;
     public Sprite healthSprite;
+    public Sprite bothSprite;
     private Gradient gradient;
     public GameObject healthBar;
     public TowerHealth towerHealth;
@@ -18,7 +19,7 @@ public class TowerUI : MonoBehaviour
     public void Start()
     {
         HideBar();
-        gradient = ColorUtility.FixedNormalHealthGradient;
+        ChangeGradient(1);
     }
 
     public void SetHealth()
@@ -42,38 +43,6 @@ public class TowerUI : MonoBehaviour
         heart.enabled = false;
     }
 
-    public void HealthPotion(bool state)
-    {
-        if (state)
-        {
-            heart.sprite = healthSprite;
-            gradient = ColorUtility.BlendedNormalHealthGradient;
-        }
-        else
-        {
-            Debug.Log("health");
-            heart.sprite = heartSprite;
-            gradient = ColorUtility.FixedNormalHealthGradient;
-            SetHealth();
-        }
-    }
-
-    public void PoisonHealthEffect(bool state)
-    {
-        if (state)
-        {
-            heart.sprite = poisonSprite;
-            gradient = ColorUtility.FixedPoisonHealthGradient;
-        }
-        else
-        {
-            Debug.Log("poison");
-            heart.sprite = heartSprite;
-            gradient = ColorUtility.FixedNormalHealthGradient;
-            SetHealth();
-        }
-    }
-
     public void ShakeTowerHealth()
     {
         ShakeUtility.Shake(healthBar, ShakeUtility.ShakeSize.Big);
@@ -82,5 +51,57 @@ public class TowerUI : MonoBehaviour
     public void PlaySound(string soundName)
     {
         audioManager.Play(soundName);
+    }
+
+    public void ChangeSprite(float spriteNum)
+    {
+        switch (spriteNum)
+        {
+            case 1:
+                heart.sprite = heartSprite;
+                break;
+
+            case 2:
+                heart.sprite = poisonSprite;
+                break;
+
+            case 3:
+                heart.sprite = healthSprite;
+                break;
+
+            case 4:
+                heart.sprite = bothSprite;
+                break;
+
+            default:
+                heart.sprite = heartSprite;
+                break;
+        }
+    }
+
+    public void ChangeGradient(float gradientNum)
+    {
+        switch (gradientNum)
+        {
+            case 1:
+                gradient = ColorUtility.FixedNormalHealthGradient;
+                break;
+
+            case 2:
+                gradient = ColorUtility.BlendedNormalHealthGradient;
+                break;
+
+            case 3:
+                gradient = ColorUtility.FixedPoisonHealthGradient;
+                break;
+
+            case 4:
+                gradient = ColorUtility.BlendedPoisonHealthGradient;
+                break;
+
+            default:
+                gradient = ColorUtility.FixedNormalHealthGradient;
+                break;
+        }
     }
 }
