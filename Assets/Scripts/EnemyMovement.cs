@@ -55,4 +55,3 @@ public class EnemyMovement : MonoBehaviour
         moveSpeed = baseSpeeed;
     }
 }
- 
