@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6b066c436e0044b68d6c62b69296407, type: 3}
   m_Name: Sandcastle_TowerConfigSO
   m_EditorClassIdentifier: 
-  name: 
+  towerName: 
   towerPrefab: {fileID: 6310282162877708248, guid: 9ab3c913cbb5f4ca3ae318d321a5e67b, type: 3}
   slotSize: 1
-  pearlCost: 100
-  Health: 10
+  pearlCost: 0
+  health: 100

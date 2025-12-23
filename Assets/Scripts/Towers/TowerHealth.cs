@@ -45,6 +45,7 @@ public class TowerHealth : MonoBehaviour
 
     public void TakeDamage(float damage)
     {
+        if(!poisoning)towerUI.PlayAnimation(0, "OnHurt");
         Health -= damage;
         towerUI.PlaySound("Hit");
     }
@@ -52,6 +53,7 @@ public class TowerHealth : MonoBehaviour
     public IEnumerator PoisonEffect(float damagePerTime, float durationOfWait, int rounds)
     {
         poisoning = true;
+        towerUI.PlayAnimation(1, "Poison");
         UpdateHealthVariable();
         towerUI.ShakeTowerHealth();
         for (int i = rounds; i > 0; i--)
@@ -61,6 +63,7 @@ public class TowerHealth : MonoBehaviour
             towerUI.ShakeTowerHealth();
         }
         towerUI.ShakeTowerHealth();
+        towerUI.PlayAnimation(2, "Poison");
         poisoning = false;
         UpdateHealthVariable();
         towerUI.SetHealth();
